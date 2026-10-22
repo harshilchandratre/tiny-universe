@@ -23,7 +23,11 @@
 <body>
     <h1>Tiny Universe</h1>
     <canvas id="universe" width="1200" height="600"></canvas>
-    <button id="generate">Generate Universe</button>
+    <div>
+        <label for="seedInput">Seed:</label>
+        <input type="number" id="seedInput" value="8678">
+        <button id="generate" onclick="generateUniverse()">Generate Universe</button>
+    </div>
     <script src="script.js"></script>
 </body>
 
